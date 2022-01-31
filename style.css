@@ -43,6 +43,29 @@ h3 {
   margin: 0;
 }
 
+.menu-btn {
+  background-color: inherit;
+  border: none;
+  margin: 16px 0 0 20px;
+}
+
+.m-menu {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #4d68a8;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.m-menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .start-title-p {
   font-size: 20px;
   margin: 6px 0;
@@ -130,4 +153,44 @@ ul {
   padding: 18px 30px;
   width: fit-content;
   align-self: center;
+}
+
+.speakers-title {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.speakers-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.speakers-name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.speakers-sub-title {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.speakers-hr {
+  width: 16px;
+  margin-inline-start: 0;
+}
+
+.speakers-p {
+  font-size: 10px;
+}
+
+.speakers-img {
+  width: 40%;
+  height: auto;
+  padding: 20px 10px 10px 20px;
+  background-image: url(src/bg/chess-bg.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
