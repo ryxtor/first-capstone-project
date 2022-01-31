@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: cocogoose-pro;
+  src: url(src/font/cocogoose-pro.otf);
+}
+
+.coco {
+  font-family: "cocogoose-pro", sans-serif;
+}
+
+.lato {
+  font-family: Lato, sans-serif;
+}
+
+.black {
+  color: #272a31;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.gray {
+  color: #d3d3d3;
+}
+
+body {
+  background-color: #dfdfdf;
+}
+
+.start-section {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 12px;
+}
+
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.start-title-p {
+  font-size: 20px;
+  margin: 6px 0;
+}
+
+.start-title {
+  font-size: 30px;
+  line-height: 28px;
+}
+
+.start-p-container {
+  border: 2px solid #fff;
+  margin: 20px 0;
+}
+
+.start-descr {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 12px;
+}
+
+.start-date {
+  font-size: 24px;
+}
+
+.start-place {
+  font-size: 14px;
+}
