@@ -71,3 +71,63 @@ h3 {
 .start-place {
   font-size: 14px;
 }
+
+.main-section {
+  background-image: url(src/bg/about-bg.PNG);
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.main-hr {
+  width: 30px;
+  border: none;
+  border-top: 1px solid #ec5242;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.main-li {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 8px 0;
+  padding: 20px 16px;
+  align-items: center;
+}
+
+.main-li-title {
+  font-size: 16px;
+  padding: 0 20px;
+  width: 71.25px;
+  flex-shrink: 0;
+}
+
+.main-li-p {
+  font-size: 12px;
+}
+
+.main-btn {
+  background-color: #ec5242;
+  border: none;
+  font-size: 16px;
+  margin: 24px 0 32px 0;
+  padding: 18px 30px;
+  width: fit-content;
+  align-self: center;
+}
