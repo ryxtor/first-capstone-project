@@ -194,3 +194,21 @@ ul {
   background-size: 50%;
   background-repeat: no-repeat;
 }
+
+.partner-section {
+  background-color: #3d3d3d;
+}
+
+.footer-title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-img {
+  padding: 10px 16px;
+}
+
+.align {
+  text-align: center;
+  padding-bottom: 30px;
+}
