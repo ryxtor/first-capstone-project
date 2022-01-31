@@ -289,4 +289,50 @@ ul {
   border: none;
   border-top: 1px solid #d3d3d3;
   margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.past-section {
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.past-title {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.past-p {
+  text-align: center;
+  font-size: 12px;
+  margin: 0 32px;
+}
+
+.past-first-card {
+  background-image: url(src/first-card.png);
+  background-size: cover;
+  height: 160px;
+  margin: 30px 32px 12px 32px;
+}
+
+.past-second-card {
+  background-image: url(src/second-card.png);
+  background-size: cover;
+  height: 160px;
+  margin: 0 32px 0 32px;
+}
+
+.card-title {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  padding-top: 60px;
+}
+
+.card-p {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 12px;
 }
