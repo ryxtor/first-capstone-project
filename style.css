@@ -249,8 +249,44 @@ ul {
   text-align: center;
   font-weight: bold;
   font-size: 12px;
+  padding-bottom: 30px;
 }
 
 .about-mail a {
   color: #272a31;
+}
+
+.logo-section {
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+.logo-title {
+  text-align: center;
+  font-size: 18px;
+}
+
+.logo-hr {
+  width: 15px;
+  border: none;
+  border-top: 1px solid #ec5242;
+}
+
+.logo-p {
+  text-align: center;
+  font-size: 12px;
+  margin: 0 40px;
+}
+
+.logo-img {
+  margin: 30px 16px 0 16px;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+.logo-hr-end {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #d3d3d3;
+  margin-top: 30px;
 }
