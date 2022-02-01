@@ -45,10 +45,35 @@ h3 {
   margin: 0;
 }
 
-.menu-btn {
+.open-menu-btn {
   background-color: inherit;
   border: none;
   margin: 16px 0 0 20px;
+  cursor: pointer;
+}
+
+.close-menu {
+  background-color: inherit;
+  border: none;
+  font-size: 30px;
+  padding: 16px 16px 16px 32px;
+  cursor: pointer;
+}
+
+.menu-btn {
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-logo {
+  height: 80px;
+  padding: 16px;
 }
 
 .m-menu {
@@ -58,7 +83,7 @@ h3 {
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: #4d68a8;
+  background-color: #fff;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -690,5 +715,9 @@ ul {
     border: 4px solid #ec5242;
     padding: 6px;
     color: #ec5242;
+  }
+
+  .open-menu-btn {
+    display: none;
   }
 }

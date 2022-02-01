@@ -28,6 +28,23 @@
           <li class="white-li lato black border-o"><nav><a href="#">RE Campaing</a></nav></li>
         </ul>
       </div>
+      <nav>
+        <button type="button" id="open-menu" class="open-menu-btn"><img src="src/icons/menu-icon.svg" width="36" alt="menu icon"></button>
+      </nav>
+      <div id="mobile-menu" class="m-menu">
+        <div class="menu-container">
+        <button type="button" id="close-menu" class="close-menu">&times;</button>
+        <a href="/index.html"><img class="menu-logo" src="/src/icons/logo.png" alt="logo"></a>
+      </div>
+        <div class="m-menu-container">
+          <a class="lato black menu-btn" href="/about.html">About</a>
+          <a class="lato black menu-btn" href="#" onclick="closeNav()">Program</a>
+          <a class="lato black menu-btn" href="#" onclick="closeNav()">Join</a>
+          <a class="lato black menu-btn" href="#" onclick="closeNav()">Sponsor</a>
+          <a class="lato black menu-btn" href="#" onclick="closeNav()">News</a>
+          <a class="lato orange menu-btn" href="#" onclick="closeNav()">RE Campaing</a>
+        </div>
+      </div>
     </header>
 <section class="about-section">
 <p class="orange lato about-title-p">"Hello! Sharing world"</p>
@@ -91,5 +108,6 @@
     <p class="lato gray footer-p">2022 Renewable Energy. <br> Some Rights Reserved.</p>
   </div>
 </footer>
+<script src="script.js"></script>
   </body>
 </html>

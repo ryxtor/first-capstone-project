@@ -1,9 +1,11 @@
 function openNav() {
-  document.querySelector('#mobile-menu').style.height = '100%';
+  document.querySelector('#mobile-menu').style.height = '100vh';
+  document.querySelector('html').style.overflow = 'hidden';
 }
 
 function closeNav() {
   document.querySelector('#mobile-menu').style.height = '0%';
+  document.querySelector('html').style.overflow = 'auto';
 }
 
 document.getElementById('open-menu').onclick = openNav;
