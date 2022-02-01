@@ -156,6 +156,11 @@ ul {
   padding: 18px 30px;
   width: fit-content;
   align-self: center;
+  cursor: pointer;
+}
+
+.main-btn-dsk {
+  display: none;
 }
 
 .speakers-section {
@@ -197,9 +202,6 @@ ul {
   width: 28%;
   height: auto;
   padding: 10px 10px 10px 10px;
-  background-image: url(src/bg/chess-bg.png);
-  background-size: 40%;
-  background-repeat: no-repeat;
   margin-left: 10px;
 }
 
@@ -365,5 +367,147 @@ ul {
 
 .footer-p {
   font-size: 10px;
+}
 
+@media screen and (min-width: 768px) {
+  .start-section {
+    padding: 120px 0;
+    margin: 0 78.5px;
+  }
+
+  .start-title-p {
+    font-size: 46px;
+  }
+
+  .start-title {
+    font-size: 64px;
+    line-height: 64px;
+    width: 750px;
+  }
+
+  .start-p-container {
+    width: fit-content;
+  }
+
+  .start-descr {
+    font-size: 24px;
+    line-height: 36px;
+    width: 750px;
+  }
+
+  .start-date {
+    font-size: 36px;
+    padding-top: 40px;
+  }
+
+  .start-place {
+    font-size: 26px;
+  }
+
+  .main-title {
+    font-size: 26px;
+  }
+
+  .main-hr {
+    width: 60px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+
+  .main-ul {
+    display: flex;
+    margin: 0 78.5px;
+    column-gap: 4px;
+  }
+
+  .main-li {
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0);
+  }
+
+  .main-li:hover {
+    border: 2px solid #fff;
+  }
+
+  .main-li-title {
+    width: auto;
+    padding: 16px 0;
+    font-size: 20px;
+  }
+
+  .main-li-p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .main-btn {
+    display: none;
+  }
+
+  .main-btn-dsk {
+    display: block;
+    background-color: inherit;
+    border: none;
+    font-size: 16px;
+    margin: 42px 0 64px 0;
+    width: fit-content;
+    align-self: center;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .speakers-title {
+    font-size: 26px;
+  }
+
+  .clearfix::before,
+  .clearfix::after {
+    content: "";
+    display: table;
+  }
+
+  .clearfix::after {
+    clear: both;
+  }
+
+  .speakers-section {
+    padding: 0 78.5px;
+  }
+
+  .speakers-container {
+    width: 50%;
+    float: left;
+    background-color: #fff;
+  }
+
+  .partner-section {
+    clear: both;
+  }
+
+  .speakers-name {
+    font-size: 20px;
+  }
+
+  .speakers-p,
+  .speakers-sub-title {
+    font-size: 14px;
+  }
+
+  .footer-logo {
+    width: 250px;
+  }
+
+  .footer-p {
+    font-size: 16px;
+  }
+
+  .footer-section {
+    padding: 60px 0;
+  }
 }

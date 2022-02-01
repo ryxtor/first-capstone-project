@@ -11,35 +11,42 @@ document.getElementById('open-menu').onclick = openNav;
 document.getElementById('close-menu').onclick = closeNav;
 
 const speakers = [ {
-  image: 'src/speakers/speaker1.png',
+  image: 'src/speakers/speaker_01.png',
   name: 'Yochai Benkler',
   descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
   descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
 },
 
 {
-  image: 'src/speakers/speaker2.png',
+  image: 'src/speakers/speaker_02.png',
   name: 'Yochai Benkler',
   descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
   descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
 },
 
 {
-  image: 'src/speakers/speaker3.png',
+  image: 'src/speakers/speaker_03.png',
   name: 'Yochai Benkler',
   descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
   descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
 },
 
 {
-  image: 'src/speakers/speaker4.png',
+  image: 'src/speakers/speaker_04.png',
   name: 'Yochai Benkler',
   descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
   descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
 },
 
 {
-  image: 'src/speakers/speaker5.png',
+  image: 'src/speakers/speaker_05.png',
+  name: 'Yochai Benkler',
+  descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
+  descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
+},
+
+{
+  image: 'src/speakers/speaker_06.png',
   name: 'Yochai Benkler',
   descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
   descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
