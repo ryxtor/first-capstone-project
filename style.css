@@ -26,7 +26,9 @@
 }
 
 body {
-  background-color: #dfdfdf;
+  background-image: url(src/bg/bg-page.jpg);
+  background-size: 100%;
+  backdrop-filter: grayscale(50%);
 }
 
 .start-section {
@@ -77,6 +79,7 @@ h3 {
 }
 
 .start-p-container {
+  background-color: #f3f3f3;
   border: 2px solid #fff;
   margin: 20px 0;
 }
@@ -155,6 +158,10 @@ ul {
   align-self: center;
 }
 
+.speakers-section {
+  background-color: #fff;
+}
+
 .speakers-title {
   text-align: center;
   font-size: 18px;
@@ -163,7 +170,7 @@ ul {
 
 .speakers-container {
   display: flex;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .speakers-name {
@@ -187,12 +194,13 @@ ul {
 }
 
 .speakers-img {
-  width: 40%;
+  width: 28%;
   height: auto;
-  padding: 20px 10px 10px 20px;
+  padding: 10px 10px 10px 10px;
   background-image: url(src/bg/chess-bg.png);
-  background-size: 50%;
+  background-size: 40%;
   background-repeat: no-repeat;
+  margin-left: 10px;
 }
 
 .partner-section {
@@ -321,6 +329,12 @@ ul {
   background-size: cover;
   height: 160px;
   margin: 0 32px 0 32px;
+}
+
+.red-filter {
+  background-color: rgba(236, 83, 66, 0.6);
+  height: 160px;
+  background-size: cover;
 }
 
 .card-title {
