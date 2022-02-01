@@ -350,3 +350,20 @@ ul {
   font-size: 12px;
   margin-top: 12px;
 }
+
+.footer-section {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  width: 170px;
+}
+
+.footer-p {
+  font-size: 10px;
+
+}
