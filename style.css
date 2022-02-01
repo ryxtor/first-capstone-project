@@ -205,7 +205,8 @@ ul {
   margin-left: 10px;
 }
 
-.partner-section {
+.partner-section,
+.about-partner-section {
   background-color: #3d3d3d;
 }
 
@@ -353,12 +354,17 @@ ul {
   margin-top: 12px;
 }
 
-.footer-section {
+.footer-section,
+.about-footer-section-m {
   background-color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px 0;
+}
+
+.about-footer-section {
+  display: none;
 }
 
 .footer-logo {
@@ -486,10 +492,6 @@ ul {
     background-color: #fff;
   }
 
-  .partner-section {
-    clear: both;
-  }
-
   .speakers-name {
     font-size: 20px;
   }
@@ -509,5 +511,121 @@ ul {
 
   .footer-section {
     padding: 60px 0;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+  }
+
+  .about-title-p {
+    display: none;
+  }
+
+  .about-title {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    font-size: 48px;
+    align-self: center;
+    width: 600px;
+    line-height: 48px;
+  }
+
+  .about-p-container {
+    width: fit-content;
+    align-self: center;
+  }
+
+  .about-p {
+    width: 500px;
+    padding: 16px 60px;
+    font-size: 16px;
+  }
+
+  .about-contact,
+  .about-mail {
+    font-size: 16px;
+  }
+
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-title {
+    font-size: 28px;
+    padding: 20px 0 6px 0;
+  }
+
+  .logo-p {
+    font-size: 16px;
+  }
+
+  .logo-img {
+    width: fit-content;
+    text-align: center;
+    align-self: center;
+  }
+
+  .past-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .past-title {
+    font-size: 28px;
+  }
+
+  .past-p {
+    font-size: 16px;
+    width: 500px;
+    align-self: center;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 78.5px;
+  }
+
+  .past-first-card,
+  .past-second-card {
+    margin: 30px 12px 30px 12px;
+    width: calc(50% - 20%);
+    height: 300px;
+  }
+
+  .red-filter {
+    height: 300px;
+  }
+
+  .card-title {
+    padding-top: 120px;
+    font-size: 28px;
+  }
+
+  .card-p {
+    font-size: 16px;
+  }
+
+  .logo-hr {
+    width: 30px;
+  }
+
+  .about-footer-section-m {
+    display: none;
+  }
+
+  .about-footer-section {
+    background-color: #272a31;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 20px 0;
+  }
+
+  .about-partner-section {
+    display: none;
   }
 }
