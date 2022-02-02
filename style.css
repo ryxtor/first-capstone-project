@@ -201,6 +201,7 @@ ul {
 .speakers-container {
   display: flex;
   padding-bottom: 30px;
+  margin-right: 10px;
 }
 
 .speakers-name {
@@ -729,5 +730,6 @@ ul {
     width: 50%;
     max-height: 197px;
     float: left;
+    margin-right: 0;
   }
 }
