@@ -224,8 +224,8 @@ ul {
 }
 
 .speakers-img {
-  width: auto;
-  height: auto;
+  width: 178px;
+  height: 177px;
   padding: 10px 10px 10px 10px;
   margin-left: 10px;
 }
@@ -520,12 +520,6 @@ ul {
     padding: 0 78.5px;
   }
 
-  .speakers-container {
-    width: 50%;
-    float: left;
-    background-color: #fff;
-  }
-
   .speakers-name {
     font-size: 20px;
   }
@@ -727,5 +721,13 @@ ul {
 
   .open-menu-btn {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .speakers-container {
+    width: 50%;
+    max-height: 197px;
+    float: left;
   }
 }
