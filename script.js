@@ -15,43 +15,43 @@ document.getElementById('close-menu').onclick = closeNav;
 const speakers = [{
   image: 'src/speakers/speaker_01.webp',
   name: 'Yochai Benkler',
-  descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
-  descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
+  descrip: 'Berkman chemistry Professor at Harvard School',
+  descrip2: 'Prof. Yochai Benkler current research at EPFL focuses on Dye Sensitized and Perovskite Solar Cells, CO2 reduction, Hydrogen production, and Light-emitting diodes.',
 },
 
 {
   image: 'src/speakers/speaker_02.webp',
   name: 'Kilnam Chon',
-  descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
-  descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
+  descrip: '',
+  descrip2: 'Kilnam Chon helped bring the RE tecnologies to Asia an is and outspoken advocate for the open web and digital commons.',
 },
 
 {
   image: 'src/speakers/speaker_03.webp',
   name: 'SohYeong Noh',
-  descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
-  descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
+  descrip: 'Tech professor at University of Toronto and a board member of RE Canada',
+  descrip2: 'SohYeong Noh promotes collaboration and understanding about renewables energies.',
 },
 
 {
   image: 'src/speakers/speaker_04.webp',
   name: 'Julia Leda',
-  descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
-  descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
+  descrip: 'Julia research interests of fluorescent solar concentrators to reduce the cost of solar electricity',
+  descrip2: 'Julia began developing solar concentrators with her research team in 1996. Since 2007, Julia participate in GreenSun Energy.',
 },
 
 {
   image: 'src/speakers/speaker_05.webp',
   name: 'Lila Tretikov',
-  descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
-  descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
+  descrip: 'Lila Tretikov is a full Professor at Queensland University of Technology',
+  descrip2: 'Her research has been primarily focus on development of new routes to enhance performance and stability of next generation solar cells and energy storage devices.',
 },
 
 {
   image: 'src/speakers/speaker_06.webp',
   name: 'Ryan Merkley',
-  descrip: 'Berkman Professor of entrepreneurial Legal Studies at Harvard Law School',
-  descrip2: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2005',
+  descrip: 'CEO of Renewable Energy',
+  descrip2: 'Ryan had been leading open-source projects at Renewable Energy.',
 },
 ];
 
