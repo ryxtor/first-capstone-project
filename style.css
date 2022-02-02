@@ -432,7 +432,7 @@ ul {
   .start-descr {
     font-size: 18px;
     line-height: 36px;
-    width: 750px;
+    max-width: 750px;
   }
 
   .start-date {
